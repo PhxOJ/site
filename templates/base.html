@@ -290,7 +290,11 @@
     <footer>
         <span id="footer-content">
             <br>
-            <a style="color: #808080" href="https://dmoj.ca">{{ _('proudly powered by **DMOJ**')|markdown('default', strip_paragraphs=True) }}</a> |
+            proudly powered by
+            <a href="https://github.com/PhxOJ/site" target="_blank">PhxOJ</a>
+            , a modded version of 
+            <a href="https://github.com/DMOJ/online-judge" target="_blank">DMOJ</a>
+            |
             {% if misc_config.footer %}
                 {{ misc_config.footer|safe }} |
             {% endif %}
