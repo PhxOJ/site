@@ -10,6 +10,7 @@ $color_primary33: #555;     // widget
 $color_primary50: #808080;
 $color_primary66: #aaa;     // tabs
 $color_primary75: #ccc;     // widget
+$color_primary80: #3b3b3b; //sidebox
 $color_primary90: #eee;
 $color_primary100: #f8f8f8;
 
@@ -43,6 +44,14 @@ $color_user_submission_activity4: #39d353;
 $color_problem_submit_select2: #8a8a8a;
 
 $path_to_root: '..';    // relative path from style.css to STATIC_ROOT
+
+//navbar and sidebox
+
+$color_bar0: #3b3b3b;
+$color_bar1: #fff;
+$color_bar2: rgba(255, 255, 255, 0.25);
+$color_bar3: $color_link50;
+$color_bar4: #eee;
 
 @mixin vars-img {
     filter: invert(1) hue-rotate(180deg);

@@ -1,5 +1,5 @@
 // Navbar should look the same in every theme, so vars-common should be enough.
-@import "vars-common";
+@import "vars";
 
 #user-links {
     top: 0;
@@ -13,10 +13,10 @@
         min-height: 100%;
         align-items: center;
         white-space: nowrap;
-        color: #5c5954;
+        color: #FFF;
 
         a {
-            color: #FFF;
+            color: #000;
         }
     }
 
@@ -48,7 +48,7 @@
 
                     & > span {
                         vertical-align: middle;
-                        color: #eee;
+                        color: $color_bar4;
                     }
                 }
             }
@@ -66,7 +66,7 @@
 }
 
 #nav-container {
-    background: #3b3b3b;
+    background: $color_bar0;
 
     // opacity: 0.77
     // filter: alpha(opacity=77)
@@ -87,7 +87,7 @@ nav {
 
         li {
             display: inline-block;
-            color: #FFF;
+            color: $color_bar1;
             text-transform: uppercase;
             position: relative;
 
@@ -106,23 +106,23 @@ nav {
                 display: inline-block;
                 text-decoration: none;
                 vertical-align: middle;
-                color: #FFF;
+                color: $color_bar1 !important;
                 padding: 13px 7px;
                 height: 18px;
 
                 &:link {
-                    color: #FFF;
+                    color: $color_bar1;
                 }
 
                 &:hover {
-                    color: #FFF;
-                    background: rgba(255, 255, 255, 0.25);
+                    color: $color_bar1;
+                    background:$color_bar2;
                     margin: 0;
                 }
 
                 &.active {
-                    color: #FFF;
-                    background: $highlight_blue;
+                    color: $color_bar1;
+                    background: $color_bar3;
                 }
 
                 .nav-expand {
@@ -135,8 +135,8 @@ nav {
                 position: absolute;
                 left: 5px;
                 display: none;
-                color: #fff;
-                background: #3b3b3b;
+                color: $color_bar1;
+                background: $color_bar0;
                 margin: 0 !important;
                 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
