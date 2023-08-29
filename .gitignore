@@ -12,3 +12,11 @@ resources/martor-description.css
 resources/style.css
 resources/vars.scss
 sass_processed
+node_modules
+resources/select2-dmoj.css
+static
+websocket
+bridgelog.log
+install_done
+package-lock.json
+package.json
